@@ -1,5 +1,5 @@
-import minecraft.minecraft as minecraft
-mc = minecraft.minecraft.create()
+from mcpi.minecraft import Minecraft
+mc = Minecraft.create()
 
 sky_jail = [-56,40,116,-48,48,108,85]
 mc.setBlocks (sky_jail)
